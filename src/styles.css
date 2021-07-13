@@ -24,3 +24,32 @@
 
 }
 
+.w100{
+    width: 100px;
+}
+
+.w140{
+    width: 140px;
+}
+
+.oculto{
+    display: none;
+}
+
+.avatar{
+    border:1px solid grey;
+    width: 75px;
+    border-radius: 100%;
+}
+
+.fondo-modal-imagen{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left:0px;
+    height: 100%;
+    top:0px;   
+    width: 100%;
+    z-index: 9999;    
+}
+
+
