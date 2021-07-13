@@ -1,7 +1,6 @@
-import { Usuario } from "../models/usuario.model";
+import { Usuario } from '../models/usuario.model';
 
-
-export interface CargarUsuario{
-    total:number,
-    usuarios:Usuario[];
+export interface CargarUsuario {
+    total: number;
+    usuarios: Usuario[];
 }

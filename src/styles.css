@@ -1,55 +1,55 @@
+
 .fast{
-    -webkit-animation-duration:0.3s;
-    animation-duration:0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
     -webkit-animation-fill-mode:both;
     animation-fill-mode:both
 }
 
-.themecolors .selector, .cursor{
+#themecolors .selector, .cursor {
     cursor: pointer;
-
 }
 
 
-#google-btn{
+#google-btn {
     align-items: center;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.img-avatar{
+.img-avatar {
     height: 200px;
     width: 200px;
-
 }
 
-.w100{
+.w100 {
     width: 100px;
 }
 
-.w140{
+.w140 {
     width: 140px;
 }
 
-.oculto{
+.w200 {
+    width: 200px;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 30px;
+}
+
+.oculto {
     display: none;
 }
 
-.avatar{
-    border:1px solid grey;
-    width: 75px;
-    border-radius: 100%;
-}
-
-.fondo-modal-imagen{
+.fondo-modal-imagen {
     background-color: rgba(0, 0, 0, 0.4);
-    position: fixed;
-    left:0px;
+    left: 0px;
     height: 100%;
-    top:0px;   
+    position: fixed;
+    top: 0px;
     width: 100%;
-    z-index: 9999;    
+    z-index: 9999;
 }
-
-
