@@ -66,6 +66,7 @@ export class UsuarioService {
 
       });      
     })
+
   }
 
   guardarLocalStorage( token: string, menu: any ) {
